@@ -36,7 +36,7 @@ finally:
     driver.switch_to.window(fb_login_window)
     time.sleep(2)
     facebook_num = driver.find_element(By.XPATH, '//*[@id="email"]')
-    facebook_num.send_keys("+380660721528")
+    facebook_num.send_keys("+------")
 
     facebook_password = driver.find_element(By.ID, 'pass')
     facebook_password.click()
